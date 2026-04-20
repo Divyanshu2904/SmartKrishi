@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "SmartKrishi ko aapki location chahiye weather aur crop recommendations ke liye."
+        }
+      ],
+      "expo-web-browser",
+      "@react-native-voice/voice"
+    ],
+    "name": "smartkrishi-mobile",
+    "slug": "smartkrishi-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo-main.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "scheme": "smartkrishi-mobile",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dkashyap04.smartkrishi"
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "resize",
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ],
+      "package": "com.dkashyap04.smartkrishi"
+    },
+    "web": {
+      "favicon": "./assets/logo-main.png"
+    }
+  }
+}
