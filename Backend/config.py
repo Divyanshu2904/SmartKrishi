@@ -10,6 +10,7 @@ DB_CONFIG = {
     "password": os.getenv("DB_PASSWORD", "")
 }
 
+
 WEATHER_API_KEY       = os.getenv("WEATHER_API_KEY")
 DATA_GOV_API_KEY      = os.getenv("DATA_GOV_API_KEY")
 AGMARKNET_RESOURCE_ID = os.getenv("AGMARKNET_RESOURCE_ID")
