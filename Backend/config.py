@@ -25,3 +25,5 @@ DISEASE_MODEL_PATH = os.path.join(BASE_DIR, "ml", "disease_model", "plant_diseas
 CLASSES_JSON_PATH   = os.path.join(BASE_DIR, "ml", "disease_model", "classes.json")
 DISEASE_CSV_PATH    = os.path.join(BASE_DIR, "ml", "disease_model", "disease_solution.csv")
 CROP_MODEL_PATH     = os.path.join(BASE_DIR, "ml", "crop_model.pkl")
+
+crop_json_path = os.path.join(BASE_DIR, "ml", "crop_model.json")
